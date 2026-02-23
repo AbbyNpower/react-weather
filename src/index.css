@@ -1,0 +1,135 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Center content */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+/* App background container */
+.app-background {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #dcefff, #f0f8ff);
+  padding-top: 50px;
+  width: 100%;
+}
+
+/* Weather card container */
+.weather-card-container {
+  background-color: #fff;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Hero image inside the card */
+.hero-image {
+  width: 120px;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #222;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* Search form layout */
+.search-form,
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.search-form input,
+input[type="text"] {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  width: 70%;
+}
+
+.search-form input:focus,
+input[type="text"]:focus {
+  border-color: #74ebd5;
+}
+
+.search-form button,
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #74ebd5;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  transition: background 0.3s;
+}
+
+.search-form button:hover,
+button:hover {
+  background-color: #57c5c2;
+}
+
+/* Error message */
+.error-message,
+p[style*="color: red"] {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Weather Card */
+.weather-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.weather-card img {
+  width: 80px;
+  height: 80px;
+  margin: 0.5rem 0;
+}
+
+.weather-card p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.weather-card strong {
+  color: #222;
+}
