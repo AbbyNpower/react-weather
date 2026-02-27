@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { getWeather } from "./services/weatherService";
-import WeatherCard from "./components/weatherCard";
+import WeatherCard from "./components/WeatherCard";
 import SearchBar from "./components/SearchBar"; // <-- import SearchBar
 import heroImage from "./reactimages/weather-hero.jpg";
 import "./index.css";
